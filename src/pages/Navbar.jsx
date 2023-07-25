@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {Link} from 'react-scroll'
-import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import resume from "../assets/resume.pdf"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -83,7 +83,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f68]'>
             <a className='flex justify-between items-center w-full text-white' 
-            href="/">
+            href={resume} download="Resume">
               Resume <BsFillPersonLinesFill size={30}/>
             </a>
           </li>
