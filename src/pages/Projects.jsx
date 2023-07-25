@@ -48,10 +48,10 @@ const Projects = () => {
                - Designed portfolio on Figma and used knowledge of JSX and Tailwind to create and style the design into React
               </p>
               <div className='pt-8 text-center'>
-                <a href="/">
+                <a href="https://t0nr.github.io/portfolio/" target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-grey-500 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/t0nr/portfolio" target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-grey-500 font-bold text-lg'>Github</button>
                 </a>
               </div>
